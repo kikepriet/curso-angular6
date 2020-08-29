@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-hola-mundo'`, () => {
+  it(`should have as title 'angular-whishlist'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-hola-mundo');
+    expect(app.title).toEqual('angular-whishlist');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-hola-mundo app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-whishlist app is running!');
   });
 });
