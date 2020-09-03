@@ -1,19 +1,19 @@
 .cuadrado {
     width: 100px; 
     height: 100px; 
-    background: #000;
+    background: Deeppink;
 }
 
 .rectangulo {
     width: 200px; 
     height: 100px; 
-    background: #000;
+    background: Deeppink;
 }
 
 .triangulo {
     width: 0; 
     height: 0; 
-    border-left: 100px solid #000;
+    border-left: 100px solid Deeppink;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
     -webkit-transform: rotate(-90deg);
@@ -29,5 +29,5 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background: #000;
+    background: Deeppink;
 }
