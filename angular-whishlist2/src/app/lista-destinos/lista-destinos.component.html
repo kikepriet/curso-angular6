@@ -1,0 +1,10 @@
+<!-- La manera de hacer una lista -->
+<ul>
+    <li>{{ destinos[0] }}</li>
+    <li>{{ destinos[1] }}</li>
+    <li>{{ destinos[2] }}</li>
+    <li>{{ destinos[3] }}</li>
+</ul>
+
+<!-- agregando otro componenete -->
+<app-destino-viaje *ngFor="let x of destinos" [nombre]="x"></app-destino-viaje>
