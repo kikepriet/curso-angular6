@@ -1,0 +1,49 @@
+.contenedor {
+    height: 200px;
+    display: flex;
+}
+
+.cuadro_color {
+    width: 100px;
+    height: 100px;
+}
+
+.morado {
+    background: purple;
+}
+
+.rojo {
+    background: red;
+}
+
+.rosa {
+    background: pink;
+}
+
+.anaranjado {
+    background: orange;
+}
+
+.amarillo {
+    background: yellow;
+}
+
+.verde {
+    background: green;
+}
+
+.celeste {
+    background: cyan;
+}
+
+.azul {
+    background: blue;
+}
+
+.cafe {
+    background: maroon;
+}
+
+.negro {
+    background: black;
+}
